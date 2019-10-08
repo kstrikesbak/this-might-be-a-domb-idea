@@ -10,7 +10,7 @@ paragraph.innerText = 'Lorem ipsum dolor amet viral meh selfies drinking vinegar
 
 const item13 = document.querySelector('#item-13');
 
-item13.style.opacity = '50%';
+item13.style.opacity = '0.5';
 
 const item3 = document.querySelector('#item-3');
 
@@ -31,6 +31,10 @@ image2.style.height = '300px';
 
 // const newLi = document.createElement('.item');
 
-
-
+const newItem = document.createElement('li');
+newItem.class = 'item';
+newItem.id = 'item-16';
+newItem.innerText = "I won't be fooled again.";
+const list = document.querySelector('ul');
+list.appendChild(newItem);
 
