@@ -29,6 +29,10 @@ const div = document.querySelector('div');
 div.appendChild(image2);
 image2.style.height = '300px';
 
+const newDiv = document.createElement('div');
+newDiv.appendChild(image2);
+div.appendChild(newDiv);
+
 // const newLi = document.createElement('.item');
 
 const newItem = document.createElement('li');
